@@ -1,0 +1,16 @@
+body{
+    background-image: url(https://images.pexels.com/photos/194096/pexels-photo-194096.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    
+    
+}
+.card .card-body input[type=text],input[type=email],input[type=number],input[type=password]{
+    border: none;
+    border-bottom: 3px solid lightblue;
+    outline: none;
+    width: 300px;
+}
+.card .card-body input[type=text],input[type=email],input[type=number],input[type=password]:hover{
+    background-color: none;
+}

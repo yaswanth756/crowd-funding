@@ -1,0 +1,201 @@
+body nav{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#intro img{
+    opacity: 0.81;
+}
+#intro  button-1{
+    border:none;
+    border-radius: 50%;
+    background-color:#0078d7 ;
+    padding:6px 10px;
+    margin:3px ;
+}
+#intro  button-2{
+    border:none;
+    border-radius: 50%;
+    background-color:#1da1f3 ;
+    padding:6px 7px ;
+    margin:3px ;
+}    
+#intro  button-3{
+    border:none;
+    border-radius: 50%;
+    background-color:#f36525 ;
+    padding:7px ;
+    margin:3px ;
+}    
+#intro .icon{
+    color: white;
+    font-size:13px ;
+}
+#intro .main h2{
+    position: absolute;  
+    top: 50%;
+    left:26%;
+    letter-spacing:1px ;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:20px ;
+}
+#intro .but{
+    position: absolute;
+    top:45%;
+    right:45% ;
+    left:45%;
+    color: white;
+}
+#intro .main pre{
+    position: absolute;  
+    top:65%;
+    left:31%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 19px;
+} 
+#st h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#st .new{
+    width: 150px;
+    height: 3px;
+    margin: 6px auto;
+    margin-bottom:50px ;
+}
+.row .card .card-body h3{
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color:black;
+   display: inline;
+}
+.row .card{
+    border: none;
+    background-color:white;
+    border-radius:10px;
+}
+.row .card .card-body p{
+    padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#good .new{
+    width: 60px;
+    height: 2px;
+    margin: 20px auto;
+    margin-bottom:10px ;
+}
+#good img{
+    margin-left: 8px;
+}
+#good .card{
+    background-color: #f7f7f7;
+    box-shadow: 2px 2px 12px lightslategray;
+    border-radius: 0px;
+}
+#good{
+    margin: 30px;
+}
+#footer .row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #06121e;
+    padding-bottom:110px ;
+}
+#medical{
+    background-color:#fffbed ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#medical .st .new{
+    width: 170px;
+    height: 3px;
+    margin: 6px auto;
+    margin-bottom:50px ;
+}
+#medical .row .col-md-6 .icon{
+    color: #fec824;
+    font-size: 50px;
+    text-align: center;
+}
+#medical .row .col-md-6 p{
+    color: #9f9c93;
+    line-height: 26px;
+  
+}
+#medical .row .col-md-6 h6{
+    font-weight: bold;
+}
+#footer .row .col{
+    width: 33.33%;
+
+}
+#footer .row .col h3{
+    color: #277d74;
+    padding-top:50px ;
+    padding-left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom:20px ;
+}
+#footer .row .col  .add span{
+    color: #b40f1f;
+    padding-left:80px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px ;
+    
+}
+#footer .row .col  .add P{
+    color:#828385 ;
+    padding-left:80px ;
+    padding-top:8px ;
+    padding-bottom:5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px ;
+}
+#footer .row .col  .us P{
+    color:#828385 ;
+    padding-left:80px ;
+    padding-top:13px;
+    padding-bottom:5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px ;
+}
+#footer .row .col  .us span{
+    color: #b40f1f;
+    padding-left:80px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px ;
+}
+#footer .row .col  .letter input{
+    margin-left:80px ;
+    padding:8px ;
+    border: #06121e 1px solid;
+}
+#footer .row .col  .letter button{
+    padding:8px 13px;
+    background-color: #c50e20;
+    color:white ;
+    border:none ;
+    margin-left:-2px ;
+    border: #06121e 1px solid;
+}
+#footer .row .col  .letter P{
+    color:#828385 ;
+    padding-left:80px ;
+    padding-top:13px;
+    padding-bottom:5px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:12px ;
+}
+#last .end{
+    color:#fffffd ;
+    padding:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-color: #000000;
+}
+#last span{
+    color: #fa3500;
+}
+#good .row .col-md-2 .card:hover{
+    transform: scale(1.2);
+}
+#good .row .col-md-2 .card{
+    transition: 1s;
+}
